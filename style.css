@@ -37,7 +37,7 @@
     width:100%;
     margin-bottom: 50px;
     padding: 20px;
-    justify-content:space-evenly;
+    justify-content:center;
     background-color:rosybrown;
     overflow: hidden;
     position: fixed;
@@ -65,7 +65,7 @@ figcaption{
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 10px 10px 10px 10px;
+    padding: 5px 5px;
     text-decoration: none;
     font-size: 30px
 }
