@@ -116,6 +116,22 @@ figcaption{
         display: flex;
         justify-content: center;
         background-color: black;
+        padding: 20px;
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+    /*facebbok*/
+    .facebook{
+        background: #3B5998;
+        color: white;
+    }
+    /*twitter*/
+    .twitter{
+        background: #55ACEE;
+        color: white;
     }
 
    
