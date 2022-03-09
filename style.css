@@ -44,10 +44,9 @@
     top: 0;
 }
 body{
-    background-color: wheat;
-    font-weight: 20;
+    background-color:wheat;
+    font-weight: 10;
     font-size: 1.5rem;
-
     
 
 }
@@ -105,7 +104,20 @@ figcaption{
     }
     #projects-section{
         display: flex;
-        padding: 20px;
+        padding: 10px;
+    }
+    #paragraph{
+        font: size 10px;
+        text-align: center;
+    }
+    #Contact-section{
+
+
+        display: flex;
+        justify-content: center;
+        background-color: black;
+    }
+
    
 
      
