@@ -21,14 +21,12 @@
 #welcome-section img{
     display: flex-start;
     align-items: left;
-    
-
 
 
 }
 #Contact-section{
     font-size: 50px;
-    color: blue;
+    color: blanchedalmond;
     align-items: center;
 }
 #nav-bar{
@@ -91,8 +89,6 @@ figcaption{
     }
   
     
-
-    
     }
     #nav-bar{
         background-color: #333;
@@ -104,12 +100,9 @@ figcaption{
     }
     #projects-section{
         display: flex;
-        padding: 10px;
+        padding: 10px 10px
     }
-    #paragraph{
-        font: size 10px;
-        text-align: center;
-    }
+   
     #Contact-section{
 
 
