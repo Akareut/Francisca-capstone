@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
 
 *{
     margin: 0;
@@ -41,7 +42,8 @@ body{
     background-color: #361500;
     font-weight: 10;
     font-size: 1.5rem;
-    color:#CC9544
+    color:#CC9544;
+    font-family: 'Fira Sans', sans-serif;
     
 
 }
@@ -97,7 +99,7 @@ span{
     
     }
     #nav-bar{
-        background-color: #333;
+        background-color: #1C0A00;
         overflow: hidden;
     }
     #nav-bar a.active{
@@ -111,6 +113,7 @@ span{
         color:#e6ede6;
         margin-top: 10px;
         margin-bottom: 10px;
+        justify-content: space-evenly;
         
         
         
@@ -125,14 +128,13 @@ span{
 
         display: flex;
         justify-content: center;
-        background-color: black;
+        background-color: #1C0A00;
         padding: 20px;
         font-size: 40px;
         width: 100%;
         text-align: center;
         text-decoration: none;
         margin: 5px 2px;
-        color: blue;
         margin top: 20px;
         
 
@@ -140,7 +142,6 @@ span{
    
     .container{
         min-height: 300px;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         margin top: 100px;
         margin bottom: 10px;
         
