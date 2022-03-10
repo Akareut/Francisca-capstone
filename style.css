@@ -43,7 +43,7 @@
     float: right;
 }
 body{
-    background-color:wheat;
+    background-color:#35424a;
     font-weight: 10;
     font-size: 1.5rem;
     
@@ -51,9 +51,9 @@ body{
 }
 
 figcaption{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
-    color:rebeccapurple;
+    
 
 
 }
@@ -104,13 +104,18 @@ figcaption{
     }
     #projects-section{
         display: flex;
-        padding: 10px 10px
+        padding: 15px;
+        background-color:#333;
+        color:#e6ede6;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+        
+        
+        
         
     }
-    #boxes.project-tile{
-        float: left;
-        width: 30%;;
-    }
+   
    
     #Contact-section{
 
@@ -124,17 +129,11 @@ figcaption{
         text-align: center;
         text-decoration: none;
         margin: 5px 2px;
+        color: blue;
+        margin top: 20px;
+
     }
-    /*facebbok*/
-    .facebook{
-        background: #3B5998;
-        color: white;
-    }
-    /*twitter*/
-    .twitter{
-        background: #55ACEE;
-        color: white;
-    }
+   
     .container{
         min-height: 300px;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
