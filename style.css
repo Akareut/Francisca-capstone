@@ -31,7 +31,7 @@
 }
 #nav-bar{
     display: flex;
-    border: 3px solid #333;
+    border: 2px solid red;
     width:100%;
     margin-bottom: 50px;
     padding: 20px;
@@ -105,6 +105,11 @@ figcaption{
     #projects-section{
         display: flex;
         padding: 10px 10px
+        
+    }
+    #boxes.project-tile{
+        float: left;
+        width: 30%;;
     }
    
     #Contact-section{
@@ -130,7 +135,15 @@ figcaption{
         background: #55ACEE;
         color: white;
     }
-
+    .container{
+        min-height: 300px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin top: 100px;
+        margin bottom: 10px;
+        
+        
+    }
+    
    
 
      
