@@ -1,156 +1,165 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box ;
-}
-#welcome-section{
-   display:flex;
-    padding:50px;
-    padding-top:100px;
-    justify-content: space-between;
-    align-items:center;
-    height: 100vh; 
-    
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box ;
+        }
+        #welcome-section{
+        display:flex;
+            padding:50px;
+            padding-top:100px;
+            justify-content: space-between;
+            align-items:center;
+            height: 100vh; 
+            
 
-}
-#welcome-section img{
-    display: flex-start;
-    align-items: left;
-    margin-right: 100px;
-
-
-}
-#Contact-section{
-    font-size: 50px;
-    color: blanchedalmond;
-    align-items: center;
-}
-#nav-bar{
-    display: flex;
-    width:100%;
-    margin-bottom: 50px;
-    padding: 20px;
-    justify-content:center;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    float: right;
-}
-body{
-    background-color: #361500;
-    font-weight: 10;
-    font-size: 1.5rem;
-    color:#CC9544;
-    font-family: 'Fira Sans', sans-serif;
-    
-
-}
-
-figcaption{
-    font-size: 30px;
-    font-weight: bold;
-    
+        }
+        #welcome-section img{
+            display: flex-start;
+            align-items: left;
+            margin-right: 100px;
 
 
-}
-.project-tile{
-    font-weight: bold;
-}
-#nav-bar a {
-    float: right;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 5px 5px;
-    text-decoration: none;
-    font-size: 20px;
-    text-transform: uppercase;
-    margin-top: 10px;
-}
-#nav-bar a:hover{
-    background-color: #ddd;
-    color: black;
-    float: left;
+        }
+        #Contact-section{
+            font-size: 50px;
+            color: blanchedalmond;
+            align-items: center;
+        }
+        #nav-bar{
+            display: flex;
+            width:100%;
+            margin-bottom: 50px;
+            padding: 20px;
+            justify-content:center;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            float: right;
+        }
+        body{
+            background-color: #361500;
+            font-weight: 10;
+            font-size: 1.5rem;
+            color:#CC9544;
+            font-family: 'Fira Sans', sans-serif;
+            
+
+        }
+
+        figcaption{
+            font-size: 30px;
+            font-weight: bold;
+            
 
 
-}
-#nav-bar-centered a{
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-span{
-    color: white;
-}
-.container h1:nth-child(2){
-    margin-bottom:30px;
-  }
+        }
+        .project-tile{
+            font-weight: bold;
+        }
+        #nav-bar a {
+            float: right;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 5px 5px;
+            text-decoration: none;
+            font-size: 20px;
+            text-transform: uppercase;
+            margin-top: 10px;
+        }
+        #nav-bar a:hover{
+            background-color: #ddd;
+            color: black;
+            float: left;
 
-@media screen and(max-width:1400px){
-    #welcome-section{
-     font-size: 20px;  
+
+        }
+        #nav-bar-centered a{
+            float: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        span{
+            color: white;
+        }
+        .container h1:nth-child(2){
+            margin-bottom:30px;
+        }
+
+        @media screen and(max-width:1400px){
+            #welcome-section{
+            font-size: 20px;  
+                
+            
+            }
         
-    
-    }
-  
-    
-    }
-    #nav-bar{
-        background-color: #1C0A00;
-        overflow: hidden;
-    }
-    #nav-bar a.active{
-        background-color: aqua;
-        color: whitesmoke;
-    }
-    #projects-section{
-        display: flex;
-        padding: 15px;
-        background-color:1C0A00;
-        color:#e6ede6;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        justify-content: space-evenly;
-        
-        
-        
-        
+            
+            }
+            #nav-bar{
+                background-color: #1C0A00;
+                overflow: hidden;
+            }
+            #nav-bar a.active{
+                background-color: aqua;
+                color: whitesmoke;
+            }
+            #projects-section{
+                display: flex;
+                padding: 15px;
+                background-color:1C0A00;
+                color:#e6ede6;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                justify-content: space-evenly;
+                
+            }
         
         
-    }
-   
-   
-    #Contact-section{
+            #Contact-section{
+                display: flex;
+                justify-content: center;
+                background-color: #1C0A00;
+                padding: 20px;
+                font-size: 40px;
+                width: 100%;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 2px;
+                margin-top: 20px;
+                
+            }
+        
+            .container{
+                min-height: 300px;
+                margin-top: 100px;
+                margin-bottom: 10px;   
+                
+            }
+            footer{
+                height:20vh ;
+            }
+            @media (max-width:425px){
+                body{
+                    font-weight: 5;
+                    font-size: 1rem;
 
+                #nav-bar{
+                        display: flex;
+                        width:50%;
+                        margin-bottom: 20px;
+                        padding: 10px;
+                    flex-direction: column;
+                    }
+                
+                    
+                
+                }
 
-        display: flex;
-        justify-content: center;
-        background-color: #1C0A00;
-        padding: 20px;
-        font-size: 40px;
-        width: 100%;
-        text-align: center;
-        text-decoration: none;
-        margin: 5px 2px;
-        margin-top: 20px;
+            }
         
 
-    }
-   
-    .container{
-        min-height: 300px;
-        margin-top: 100px;
-        margin-bottom: 10px;
-        
-        
-    }
-    footer{
-        height:20vh ;
-    }
-   
-
-     
+            
 
